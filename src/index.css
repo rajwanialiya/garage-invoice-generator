@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* colours */
+:root {
+  --light-grey: rgb(245, 245, 245);
+  --dark-grey: rgb(115, 115, 115);
+  --orange: rgb(249, 115, 22);
+}
+
+/* fonts */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.3em;
+  color: var(--dark-grey);
+}
+
+/* buttons */
+button,
+input {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1em;
+  color: var(--dark-grey);
+}
+
+button {
+  color: white;
+  font-weight: bold;
+  background-color: var(--orange);
+  width: 200px;
+}
+
+button:hover,
+button.clicked {
+  background-color: darkblue;
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* errors */
+.error-message {
+  color: red;
+  display: flex;
+  align-items: center;
+}
+
+.error-icon {
+  margin-right: 8px;
+}
+
+.error-text {
+  font-size: 16px;
+}

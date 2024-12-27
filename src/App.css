@@ -1,0 +1,41 @@
+.nav-holder {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 75px;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.logo-container {
+  flex: 0 0 20%;
+  padding: 30px 0;
+  height: 20px;
+  display: flex;
+}
+
+.logo {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.content-holder {
+  background-color: var(--light-grey);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+  padding: 60px;
+  flex-direction: column;
+}
+
+.outer-container {
+  padding: 0 20px 20px 20px;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}

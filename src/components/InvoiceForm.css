@@ -1,0 +1,31 @@
+.invoice-form {
+  margin-top: 50px;
+}
+
+#input-form > p {
+  margin: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#input-box {
+  margin: 1em 0;
+  border-color: var(--dark-grey);
+  width: 60vw;
+}
+
+.generate,
+#input-box {
+  padding: 18px;
+  border: 1px solid;
+  border-radius: 15px;
+}
+
+.download-link {
+  margin: 20px 0;
+  color: black;
+  font-weight: bold;
+}
